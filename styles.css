@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 38px;
+    position: sticky; /*Subject to deletetion */
 }
 
 .left-side {
