@@ -22,7 +22,14 @@ body{
 }
 
 .left-side {
-    display: flex;
+   display: flex;
+   justify-content: right;
+   align-items: center;
+}
+.right-side {
+   display: flex;
+   justify-content: right;
+   align-items: center;
 }
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
@@ -435,4 +442,18 @@ about section
 		left:-30px;
 		right:auto;
 	}
+}
+.namered{
+   font-family:'Abril Fatface';
+   font-size:60px;
+   letter-spacing:15px;
+   margin-right:10px;
+   color:#821919;
+   margin-right:210px;
+}
+.nameblack{
+   font-family:'Abril Fatface';
+   font-size:60px;
+   letter-spacing:15px;
+   margin-right:0px
 }
