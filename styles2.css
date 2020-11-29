@@ -8,6 +8,21 @@ body{
     line-height: 1.5;
     overflow-x: hidden;
 }
+.namered{
+   font-family:'Abril Fatface';
+   font-size:60px;
+   letter-spacing:15px;
+   margin-right:10px;
+   color:#821919;
+   margin-right:210px;
+}
+
+.nameblack{
+   font-family:'Abril Fatface';
+   font-size:60px;
+   letter-spacing:15px;
+   margin-right:0px
+}
 
 .container{
     display: grid;
