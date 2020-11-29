@@ -4,7 +4,7 @@ body{
     margin: 0px;
     padding:0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1.5;
     overflow-x: hidden;
 }
@@ -22,7 +22,14 @@ body{
 }
 
 .left-side {
-    display: flex;
+   display: flex;
+   justify-content: right;
+   align-items: center;
+}
+.right-side {
+   display: flex;
+   justify-content: right;
+   align-items: center;
 }
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
@@ -31,7 +38,7 @@ body{
 }
 
 .nav-wrapper-link {
-    height: 22px;
+    height: 28px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }

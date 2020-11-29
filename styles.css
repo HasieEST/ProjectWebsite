@@ -1,12 +1,25 @@
 /*Main CSS File*/
-
 body{
     margin: 0px;
     padding:0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1.5;
     overflow-x: hidden;
+}
+.namered{
+    font-family:'Abril Fatface';
+    font-size:60px;
+    letter-spacing:15px;
+    margin-right:10px;
+    color:#821919;
+    margin-right:210px;
+}
+.nameblack{
+    font-family:'Abril Fatface';
+    font-size:60px;
+    letter-spacing:15px;
+    margin-right:0px
 }
 
 .container{
@@ -19,10 +32,15 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 38px;
-    position: sticky; /*Subject to deletetion */
+    position: sticky; 
 }
 
 .left-side {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.right-side {
     display: flex;
     justify-content: right;
     align-items: center;
@@ -34,7 +52,7 @@ body{
 }
 
 .nav-wrapper-link {
-    height: 22px;
+    height: 28px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -58,3 +76,33 @@ body{
 .active-nav-link a{
     color: black !important;
 }
+
+.base{
+    margin-top:5%;
+    margin-right:30%;
+    float:right;
+    width:350px;
+    padding:15px;
+    border-style:solid;
+    border-width: 25px;
+    border-color:rgba(0, 0, 0, 0.85);
+}
+#image{
+    float:right;
+}
+
+.about-section{
+    margin-top:5%;
+    margin-left:30%;
+    float:left;
+    text-align:right;
+    font-family:garamond;
+    font-size:18px;
+    letter-spacing:2px;
+    border-top:solid gray 1px;
+    border-bottom:solid gray 1px;
+}
+
+.about-section #red{
+    color:#821919;
+    }
