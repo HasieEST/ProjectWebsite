@@ -14,11 +14,11 @@ img {width: 100%;}
 
 h2, p:not(:last-child) {margin-bottom: 2.4rem;}
 
-h1  { font: 700 2.0rem/1.2 "Roboto"; color: #821919;}
-h2  { font: 400 1.5rem/1.2 "Roboto"; color: #821919;}
-h3  { font: 700 1.0rem/1.2 "Roboto"; color: #821919;}
-p   { font: 400 1.0rem/1.2 "Roboto"; color: black;}
-time{ font: 700 1.0rem/1.2 "Roboto"; color: gray;}
+h1  { font: 700 2.0rem/1.2 "Abril Fatface"; color: #821919;}
+h2  { font: 400 1.5rem/1.2 "Abril Fatface"; color: #821919;}
+h3  { font: 700 1.0rem/1.2 "Abril Fatface"; color: #821919;}
+p   { font: 400 1.0rem/1.2 "Garamond"; color: black;}
+time{ font: 700 1.0rem/1.2 "Abril Fatface"; color: gray;}
 
 @media(max-width: 8.5in) {:root {font-size: 18px}}
 @media(max-width: 5.0in) {:root {font-size: 16px}}
