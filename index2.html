@@ -4,26 +4,208 @@
         <meta charset="utf-08">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Resume</title>
-            <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+        <title>Resume</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="reset.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface#standard:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles2.css">
     </head>
     <body>
-        <div class="container">
-            <div class="nav-wrapper">
-                <div class="left-side">
-                    <div class="nav-wrapper-link">
-                        <a href="index.html",target = "_self">About</a>
-                    </div>
+      <div class="container">
+         <div class="nav-wrapper">
+             <div class="left-side">
+                 <div class="nav-wrapper-link">
+                     <a href="index.html",target = "_self">About</a>
+                 </div>
 
-                    <div class="nav-wrapper-link active-nav-link">
-                        <a href="index2.html",target = "_self">Resume</a>
-                    </div>
+                 <div class="nav-wrapper-link active-nav-link">
+                     <a href="index2.html",target = "_self">Resume</a>
+                 </div>
 
-                    <div class="nav-wrapper-link">
-                        <a href="index3.html", target = "_self">Blog</a>
-                    </div>
+                 <div class="nav-wrapper-link">
+                     <a href="index3.html", target = "_self">Blog</a>
+                 </div>
+             </div>
+            <div class="right-side">
+               <div class="nameblack">JANE</div><div class="namered">&nbsp;DOE</div>
+           </div>
+     </div>
+    </div>
+
+ <!-- about section start -->
+ <section class="about-section section" id="about">
+    <div class="container">
+       <!-- about tabs start -->
+       <div class="row">
+          <div class="about-tabs">
+             <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
+             <span class="tab-item" data-target=".experience">experience</span>
+             <span class="tab-item" data-target=".education">education</span>
+          </div>
+       </div>
+       <!-- about tabs end -->
+
+       <!-- skills start -->
+       <div class="row">
+          <div class="skills tab-content active">
+             <div class="row">
+                <!-- skill item start -->
+                <div class="skill-item">
+                   <p>Html</p>
+                   <div class="progress inner-shadow">
+                      <div class="progress-bar" style="width: calc(50% - 14px)">
+                         <span>50%</span>
+                      </div>
+                   </div>
                 </div>
-            </div>
-        </div>
-    </body>
+                <!-- skill item end -->
+                <!-- skill item start -->
+                <div class="skill-item">
+                   <p>javascript</p>
+                   <div class="progress inner-shadow">
+                      <div class="progress-bar" style="width: calc(60% - 14px)">
+                         <span>60%</span>
+                      </div>
+                   </div>
+                </div>
+                <!-- skill item end -->
+                <!-- skill item start -->
+                <div class="skill-item">
+                   <p>bootstrap</p>
+                   <div class="progress inner-shadow">
+                      <div class="progress-bar" style="width: calc(70% - 14px)">
+                         <span>70%</span>
+                      </div>
+                   </div>
+                </div>
+                <!-- skill item end -->
+                <!-- skill item start -->
+                <div class="skill-item">
+                   <p>jquery</p>
+                   <div class="progress inner-shadow">
+                      <div class="progress-bar" style="width: calc(80% - 14px)">
+                         <span>80%</span>
+                      </div>
+                   </div>
+                </div>
+                <!-- skill item end -->
+                <!-- skill item start -->
+                <div class="skill-item">
+                   <p>angular</p>
+                   <div class="progress inner-shadow">
+                      <div class="progress-bar" style="width: calc(90% - 14px)">
+                         <span>90%</span>
+                      </div>
+                   </div>
+                </div>
+                <!-- skill item end -->
+                <!-- skill item start -->
+                <div class="skill-item">
+                   <p>php</p>
+                   <div class="progress inner-shadow">
+                      <div class="progress-bar" style="width: calc(100% - 14px)">
+                         <span>100%</span>
+                      </div>
+                   </div>
+                </div>
+                <!-- skill item end -->
+             </div>
+          </div>
+       </div>
+       <!-- skills end -->
+       <!-- experience start -->
+       <div class="row">
+          <div class="experience tab-content">
+             <div class="row">
+                <div class="timeline">
+                   <div class="row">
+                      <!-- timeline item start -->
+                       <div class="timeline-item">
+                          <div class="timeline-item-inner outer-shadow">
+                             <i class="fas fa-briefcase icon"></i>
+                             <span>Sep, 2018 - Present</span>
+                             <h3>full stack developer</h3>
+                             <h4>Company name </h4>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                       </div>
+                      <!-- timeline item end -->
+                      <!-- timeline item start -->
+                       <div class="timeline-item">
+                          <div class="timeline-item-inner outer-shadow">
+                             <i class="fas fa-briefcase icon"></i>
+                             <span>Sep, 2016 - Oct, 2017</span>
+                             <h3>web designer</h3>
+                             <h4>Company name</h4>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                       </div>
+                      <!-- timeline item end -->
+                      <!-- timeline item start -->
+                       <div class="timeline-item">
+                          <div class="timeline-item-inner outer-shadow">
+                             <i class="fas fa-briefcase icon"></i>
+                             <span>Sep, 2014 - Jun, 2016</span>
+                             <h3>web designer</h3>
+                             <h4>Company name</h4>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                       </div>
+                      <!-- timeline item end -->
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <!-- experience end -->
+
+       <!-- education start -->
+         <div class="row">
+          <div class="education tab-content">
+             <div class="row">
+                <div class="timeline">
+                   <div class="row">
+                      <!-- timeline item start -->
+                       <div class="timeline-item">
+                          <div class="timeline-item-inner outer-shadow">
+                             <i class="fas fa-graduation-cap icon"></i>
+                             <span>2012 - 2014</span>
+                             <h3>master in computer science</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                       </div>
+                      <!-- timeline item end -->
+                      <!-- timeline item start -->
+                       <div class="timeline-item">
+                          <div class="timeline-item-inner outer-shadow">
+                             <i class="fas fa-graduation-cap icon"></i>
+                             <span>2010 - 2012</span>
+                             <h3>master in computer science</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                       </div>
+                      <!-- timeline item end -->
+                      <!-- timeline item start -->
+                       <div class="timeline-item">
+                          <div class="timeline-item-inner outer-shadow">
+                             <i class="fas fa-graduation-cap icon"></i>
+                             <span>2008 - 2010</span>
+                             <h3>master in computer science</h3>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+                       </div>
+                      <!-- timeline item end -->
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <!-- education end -->
+    </div>
+ </section>
+ <!-- about section end -->
+
+<script src="laura"></script>
+</body>
 </html>
