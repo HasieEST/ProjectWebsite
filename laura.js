@@ -1,6 +1,6 @@
 
 /*------------ about section tabs ------------------*/
-
+/*---Allikas:https://www.youtube.com/watch?v=tKf4V6fJsuA&t=2123s-*/
 /*------------ kood on selleks, et saaks 'tab'-ide vahel liikuda ------------------*/
 
 (() =>{
