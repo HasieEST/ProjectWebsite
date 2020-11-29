@@ -2,11 +2,18 @@
 
 body{
     margin: 0px;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
 }
 
 .container{
     display: grid;
     grid-template-columns: 1fr;
+    max-width:1140px;
+    margin:auto;
 }
 .nav-wrapper {
     display: flex;
