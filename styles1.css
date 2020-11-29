@@ -1,0 +1,47 @@
+#name h1{
+    float:right;
+    font-family:'Abril Fatface';
+    font-size:60px;
+    letter-spacing:15px;
+    margin-right:0px
+}
+
+#name h2{
+    float:right;
+    font-family:'Abril Fatface';
+    font-size:60px;
+    letter-spacing:15px;
+    margin-right:10px;
+    color:#821919;
+    margin-right:210px;
+}
+
+.base{
+    margin-top:30px;
+    margin-right:200px;
+    float:right;
+    width:350px;
+    padding:15px;
+    border-style:solid;
+    border-width: 25px;
+    border-color:rgba(0, 0, 0, 0.85);
+}
+#image{
+    float:right;
+}
+
+.about-section{
+    margin-top:140px;
+    margin-left:200px;
+    float:left;
+    text-align:right;
+    font-family:garamond;
+    font-size:18px;
+    letter-spacing:2px;
+    border-top:solid gray 1px;
+    border-bottom:solid gray 1px;
+}
+
+.about-section #red{
+    color:#821919;
+    }
