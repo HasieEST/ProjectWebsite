@@ -4,9 +4,24 @@ body{
     margin: 0px;
     padding:0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1.5;
     overflow-x: hidden;
+}
+.namered{
+   font-family:'Abril Fatface';
+   font-size:60px;
+   letter-spacing:15px;
+   margin-right:10px;
+   color:#821919;
+   margin-right:210px;
+}
+
+.nameblack{
+   font-family:'Abril Fatface';
+   font-size:60px;
+   letter-spacing:15px;
+   margin-right:0px
 }
 
 .container{
@@ -19,6 +34,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 38px;
+    font-family: "Roboto";
 }
 
 .left-side {
@@ -38,7 +54,7 @@ body{
 }
 
 .nav-wrapper-link {
-    height: 22px;
+    height: 28px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -67,25 +83,24 @@ body{
 /* laura lehe css */
 
 :root{
-    --bg-black-900: #000000;
-    --bg-black-100: #dddddd;
-    --bg-black-50: #eff0f4;
-    --bg-opacity: rgba(255,255,255,0.5);
-    --text-black-900: #000000;
-    --text-black-700: #555555;
-    --text-black-600: #666666;
-    --text-black-300: #bbbbbb;
-    --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
-    --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
-    --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
-    --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
+   --bg-black-900: #000000;
+   --bg-black-100: #dddddd;
+   --bg-black-50: #eff0f4;
+   --bg-opacity: rgba(255,255,255,0.5);
+   --text-black-900: #000000;
+   --text-black-700: #555555;
+   --text-black-600: #666666;
+   --text-black-300: #bbbbbb;
+   --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+   --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+   --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+   --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
 }
 
 body.hidden-scrolling{
    overflow-y: hidden;
 }
 *:not(i){
-   font-family: 'Raleway', sans-serif;
    font-weight: 400;
 }
 *{
@@ -109,10 +124,7 @@ img{
    vertical-align: middle;
    max-width: 100%;
 }
-.container{
-   max-width: 1140px;
-   margin:auto;
-}
+
 .row{
    display: flex;
    flex-wrap: wrap;
@@ -126,26 +138,7 @@ img{
 .inner-shadow{
    box-shadow: var(--inner-shadow);
 }
-.hover-in-shadow{
-   position: relative;
-   z-index: 1;
-}
-.hover-in-shadow:hover{
-   box-shadow: var(--outer-shadow-0);  
-}
-.hover-in-shadow:after{
-   content: '';
-   position: absolute;
-   left:0;
-   top:0;
-   width: 100%;
-   height: 100%;
-   transition: all 0.3s ease;
-   z-index: -1;
-}
-.hover-in-shadow:hover:after{
-   box-shadow: var(--inner-shadow);
-}
+
 .align-items-center{
    align-items: center;
 }
@@ -165,6 +158,7 @@ img{
 .btn-1:after{
    border-radius: 30px;
 }
+
 .section-title{
    padding: 0 15px;
    flex:0 0 100%;
@@ -195,40 +189,8 @@ img{
 about section
 ----------------*/
 .about-section{
-   padding: 5px 0 0;
+   padding: 15px 0 0;
    min-height: 100vh;
-}
-.about-section .about-img{
-   flex:0 0 40%;
-   max-width: 40%;
-   padding:0 15px;
-}
-.about-section .about-img .img-box{
-   padding: 15px;
-   border-radius: 5px;
-}
-.about-section .about-img .img-box img{
-   width: 100%;
-   border:10px solid transparent;
-   border-radius: 5px;
-}
-
-.about-section .about-info{
-   flex:0 0 60%;
-   max-width: 60%;
-   padding:0 15px;
-}
-.about-section .about-info p{
-   font-size: 16px;
-   line-height: 26px;
-   margin-bottom: 15px;
-   color: var(--text-black-600);
-}
-.about-section .about-info span{
-   font-weight: 600;
-}
-.about-section .about-info .btn-1{
-   margin:30px 20px 0 0;
 }
 .about-section .about-tabs{
    padding: 60px 15px 50px;
@@ -252,7 +214,7 @@ about section
    opacity:0.6;
 }
 .about-section .about-tabs .tab-item.active{
-   color:rosybrown;
+   color: rosybrown;
 }
 .about-section .tab-content{
    flex:0 0 100%;
@@ -394,66 +356,4 @@ about section
    color: var(--text-black-600);
    line-height: 26px;
    margin:15px 0 0;
-}
-
-@media(max-width: 767px){
-	.about-section .skills .skill-item,
-	.about-section .about-info,
-	.about-section .about-img{
-		flex: 0 0 100%;
-        max-width: 100%;
-	}
-	
-	.full-screen{
-		padding: 100px 0;
-	}
-	.home-section .home-img .img-box{
-		margin-bottom: 40px;
-		max-width: 350px;
-	}
-	.about-section .about-img{
-		padding-bottom: 30px;
-	}
-	.about-section .timeline .timeline-item:nth-child(odd){
-		padding-right: 15px;
-        text-align: left;
-        padding-left: 75px;
-	}
-	.about-section .timeline .timeline-item:nth-child(even){
-		padding-left: 75px;
-	}
-	.about-section .timeline:before{
-		left: 35px;
-	}
-	.about-section .timeline .timeline-item:nth-child(odd) .icon{
-		right: auto;
-		left: -60px;
-	}
-	.about-section .timeline .timeline-item:nth-child(even) .icon{
-	    left: -60px;	
-	}
-	.about-section .timeline .timeline-item{
-		margin-bottom: 40px;
-	}
-	.about-section .timeline .timeline-item:last-child{
-		margin-bottom:0;
-	}
-	.about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner:before{
-		left:-30px;
-		right:auto;
-	}
-}
-.namered{
-   font-family:'Abril Fatface';
-   font-size:60px;
-   letter-spacing:15px;
-   margin-right:10px;
-   color:#821919;
-   margin-right:210px;
-}
-.nameblack{
-   font-family:'Abril Fatface';
-   font-size:60px;
-   letter-spacing:15px;
-   margin-right:0px
 }
